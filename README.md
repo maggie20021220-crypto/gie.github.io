@@ -1,5 +1,4 @@
 # 請作答入場
-<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
