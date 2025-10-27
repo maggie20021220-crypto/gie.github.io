@@ -123,8 +123,8 @@
         <h2>請問： √18 - √8 的計算結果是什麼？</h2>
 
         <div id="options-container">
-            <button class="option-btn" id="optionA" data-choice="A">選項 A： √10</button>
-            <button class="option-btn" id="optionB" data-choice="B">選項 B： √2</button>
+            <button class="option-btn" id="optionA" data-choice="A">選項  √10</button>
+            <button class="option-btn" id="optionB" data-choice="B">選項  √2</button>
         </div>
 
         <div id="feedback-area">
@@ -161,13 +161,13 @@
                 // 答對邏輯
                 feedbackImage.src = CORRECT_IMAGE_PATH;
                 feedbackImage.style.borderColor = '#4CAF50'; // 綠色邊框
-                feedbackText.textContent = "太棒了！完全正確！根號相減前記得要先化簡成同類方根喔：3\√2 - 2\√2 = \√2";
+                feedbackText.textContent = "太棒了！完全正確！根號相減前要先化成最簡根式：3\√2 - 2\√2 = \√2";
                 feedbackText.style.color = '#4CAF50';
             } else {
                 // 答錯邏輯
                 feedbackImage.src = WRONG_IMAGE_PATH;
                 feedbackImage.style.borderColor = '#f44336'; // 紅色邊框
-                feedbackText.textContent = "噢，可能掉入陷阱了！根號內的數字不能直接相減！請記得：\√a - \√b ≠ \√a-b";
+                feedbackText.textContent = "噢，掉入陷阱啦！根號內的數字不能直接相減！\√a - \√b ≠ \√a-b";
                 feedbackText.style.color = '#f44336';
             }
 
