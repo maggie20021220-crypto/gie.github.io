@@ -167,7 +167,7 @@
                 // 答錯邏輯
                 feedbackImage.src = WRONG_IMAGE_PATH;
                 feedbackImage.style.borderColor = '#f44336'; // 紅色邊框
-                feedbackText.textContent = "噢，可能掉入陷阱了！根號內的數字不能直接相減！請記得：\√a - \√b = \√a-b";
+                feedbackText.textContent = "噢，可能掉入陷阱了！根號內的數字不能直接相減！請記得：\√a - \√b ≠ \√a-b";
                 feedbackText.style.color = '#f44336';
             }
 
